@@ -1,0 +1,50 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  padding: 5rem 2rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 0.375rem;
+}
+
+.branding {
+  margin-bottom: 2rem;
+}
+
+.branding a {
+  text-decoration: underline;
+}
+
+.branding strong {
+  font-weight: 400;
+  margin: 0 0.5rem;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 0.675rem;
+}
+
+.paragraph {
+  margin-bottom: 2rem;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav ul li {
+  list-style: inside;
+}
